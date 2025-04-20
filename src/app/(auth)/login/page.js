@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function MacOSLogin() {
   const [currentTime, setCurrentTime] = useState("");
@@ -47,10 +48,10 @@ export default function MacOSLogin() {
       <div className="flex flex-col items-center mb-8">
         <div className="w-24 h-24 rounded-full bg-gray-300 mb-4 overflow-hidden flex items-center justify-center">
           <div className="text-gray-500 text-4xl">
-            <img src="/detha.jpg" alt="detha" />
+            <Image src="/detha.jpg" alt="detha" width={100} height={100} />
           </div>
         </div>
-        <h2 className="text-white text-xl font-medium">Detha's</h2>
+        <h2 className="text-white text-xl font-medium">Detha</h2>
       </div>
 
       <form onSubmit={handlePasscodeSubmit} className="w-64">

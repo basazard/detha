@@ -14,10 +14,10 @@ export default function Celebrate() {
             <h2 className="font-semibold text-2xl">🎉 You're Invited! 🎉</h2>
             <h2 className="font-semibold text-xl">A Special Celebration Hosted by Detha Disc Jockey bestie! 💖</h2>
             <p className="font-normal text-gray-100">
-              Something fun, cozy, and full of good vibes is coming your way! We’re throwing a little party, and of course—you’re on the very exclusive guest
-              list. <br></br>🌟 🗓️ Date: To be announced soon! <br></br>📍 Location: Will follow with the details <br></br>🎈 Just know... it's going to be
-              worth the wait. <br></br>This is just between us close friends, so keep it hush and save a spot in your calendar. Can't wait to laugh, dance, and
-              celebrate together!
+              Something fun, cozy, and full of good vibes is coming your way! We&apos;re throwing a little party, and of course—you&apos;re on the very
+              exclusive guest list. <br></br>🌟 🗓️ Date: To be announced soon! <br></br>📍 Location: Will follow with the details <br></br>🎈 Just know...
+              it&apos;s going to be worth the wait. <br></br>This is just between us close friends, so keep it hush and save a spot in your calendar. Can&apos;t
+              wait to laugh, dance, and celebrate together!
             </p>
             <p className="font-semibold">With love, Detha 💕</p>
           </div>
