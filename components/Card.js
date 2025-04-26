@@ -1,6 +1,6 @@
 export default function Card({ title, children }) {
   return (
-    <div className="max-w-xl mx-auto">
+    <div className="w-[400px] md:w-[600px] mx-auto ">
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
         {/* Header */}
         <div className="bg-gray-100 px-4 py-3 flex justify-between items-center border-b border-gray-200">
@@ -24,7 +24,7 @@ export default function Card({ title, children }) {
         </div>
 
         {/* Files List */}
-        <div className="divide-y divide-gray-100 p-10">{children}</div>
+        <div className="divide-y divide-gray-100 p-4 md:p-10">{children}</div>
 
         {/* Footer */}
         <div className="px-4 py-3 bg-gray-50 flex justify-between items-center border-t border-gray-200">
