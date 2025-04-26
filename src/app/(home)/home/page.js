@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-wrap gap-y-20 gap-x-20 md:gap-y-1 justify-around md:justify-between px-10 md:px-50 mt-25 md:mt-10 lg:mt-45 xl:mt-45  relative">
+    <div className="flex flex-wrap gap-y-20 gap-x-10 md:gap-y-1 justify-around md:justify-between px-10 md:px-50 mt-25 md:mt-10 lg:mt-45 xl:mt-45 relative">
       <a
         href="https://open.spotify.com/playlist/3aKgIKgrYZtOWO75ZlhJXn?si=582ef3afc39f4542"
         className="flex flex-col items-center text-gray-700 transform transition duration-200 hover:scale-85"
