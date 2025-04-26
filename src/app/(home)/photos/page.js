@@ -8,7 +8,7 @@ export default function Photos() {
       <Card title="Best Photo of You">
         <Link href="/home" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl">
           <div className="w-full rounded-t-lg  md:rounded-none md:rounded-s-lg flex justify-center">
-            <Image src="/photos.png" alt="detha" width={200} height={200} className="w-[150px] sm:w-[150px]" />
+            <Image src="/dethabest.png" alt="detha" width={200} height={200} className="w-[150px] sm:w-[150px]" />
           </div>
         </Link>
       </Card>
