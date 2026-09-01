@@ -27,7 +27,7 @@ export default function MacOSLogin() {
   const handlePasscodeSubmit = (e) => {
     e.preventDefault();
 
-    if (passcode === "20042005") {
+    if (passcode === "24042005") {
       router.push("/home");
     } else {
       setError("Incorrect passcode. Please try again.");
