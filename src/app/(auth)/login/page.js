@@ -27,8 +27,8 @@ export default function MacOSLogin() {
   const handlePasscodeSubmit = (e) => {
     e.preventDefault();
 
-    if (passcode === "24042005") {
-      router.push("/home");
+    if (passcode === "05092026") {
+      router.push("/love");
     } else {
       setError("Incorrect passcode. Please try again.");
       setPasscode("");
@@ -46,12 +46,12 @@ export default function MacOSLogin() {
       </div>
 
       <div className="flex flex-col items-center mb-8">
-        <div className="w-24 h-24 rounded-full bg-gray-300 mb-4 overflow-hidden flex items-center justify-center">
+        <div className="w-24 h-24 rounded-full bg-gray-900 mb-4 overflow-hidden flex items-center justify-center">
           <div className="text-gray-500 text-4xl">
-            <Image src="/detha.jpg" alt="detha" width={100} height={100} />
+            <Image src="/images/memories/second-meet.JPG" alt="detha" width={100} height={100} />
           </div>
         </div>
-        <h2 className="text-white text-xl font-medium">Detha</h2>
+        <h2 className="text-white text-xl font-medium">Mas & Ade</h2>
       </div>
 
       <form onSubmit={handlePasscodeSubmit} className="w-64">
